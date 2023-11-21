@@ -1,0 +1,10 @@
+.main{
+   background-color:darkgray;
+   min-height: 100vh; 
+   margin:0;
+   display: grid;
+   grid-template-rows: auto 1fr auto;
+}
+.main_container {
+    flex: 1;
+}

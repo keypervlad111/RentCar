@@ -1,0 +1,36 @@
+.navbar{
+    height: 90px;
+    margin: auto;
+    padding: 10px 40px;
+    max-width: 1400px;
+    font-family: Impact, fantasy;
+}
+.container_navbar{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    align-items: center;
+}
+.buttons{
+    padding: 10px;
+    border: 2px solid silver;
+    border-radius: 10px ;
+    display: grid;
+    grid-template-columns: repeat(var(--btnNavBar-lenght), 1fr);
+}
+.reservation_btn{
+    text-align: center;
+}
+.reservation_btn_children{
+    font-family: Impact, fantasy;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 217, 0);
+    transition: 250ms;
+}
+.reservation_btn_children:hover{
+    background-color: rgb(255, 255, 255)
+}
+img {
+    height: 90px;
+}
