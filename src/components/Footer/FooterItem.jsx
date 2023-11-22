@@ -1,14 +1,14 @@
 import "./FooterItem.css"
-// import { Link } from 'react-router-dom'
-
 
 function FooterItem({ item }) {
-    // console.log(item.children.map(child => child.LinkText));
+    console.log(item.children.map(child => child.LinkText));
     return (
         <div>
-            <div className="name">{item.name}</div>
+            <div className="name">
+                <div className="border_name">{item.name}</div>
+            </div>
             <div className="footer_childrens">
-                {/* {item.children.map((child, index) => (<div key={index}><Link to={child.linkUrl}>{child.LinkText}</Link></div>))} */}
+                {item.children.map((child, index) => (<div key={index}><li>{child.LinkText}</li></div>))}
             </div>
         </div >
     )
