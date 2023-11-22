@@ -1,9 +1,15 @@
 .navbar{
-    height: 90px;
     margin: auto;
+    height: 90px;
     padding: 10px 40px;
     max-width: 1400px;
+    min-width: 1400px;
     font-family: Impact, fantasy;
+}
+@media screen and (max-width: 1450px) {
+    .navbar {
+        min-width: 0;
+    }
 }
 .container_navbar{
     display: grid;

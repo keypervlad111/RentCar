@@ -1,6 +1,5 @@
-.main_container {
+.footer_main_container {
     padding: 0 40px;
-    border-top: 1px solid black;
 }
 
 .colums_container {
@@ -13,6 +12,5 @@
 @media screen and (max-width: 1460px) {
     .colums_container {
         max-width: 1024px;
-        background-color: rgb(115, 116, 116);
     }
 }
