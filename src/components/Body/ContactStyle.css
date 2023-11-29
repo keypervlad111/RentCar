@@ -1,0 +1,21 @@
+.contact_main{
+    padding: 30px;
+    margin: 30px;
+}
+.input_contact{
+    margin-left: 10px;
+    padding: 10px;
+    color: #000000;
+    background-color: #DB323200;
+    border-style: dashed;
+    border-width: 1px 1px 1px 1px;
+    border-color: #000000;
+    border-radius: 5px 5px 5px 5px;
+}
+.text_form{
+    padding: 30px;
+    margin: 0px 0px 6px 0px;
+    font-family: "Alata", Sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
